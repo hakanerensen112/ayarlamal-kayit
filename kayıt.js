@@ -2,8 +2,8 @@ const Discord = require("discord.js");
 
 exports.run = async (client, message, args) => {
 
-  let kişiid = "766267562849730612"//dm ye mesaj gönderecek kişinin id si
-  let kanalid = "924338948766068789"//komut kullanılacak kanalın id si
+  let kişiid = ""//dm ye mesaj gönderecek kişinin id si
+  let kanalid = ""//komut kullanılacak kanalın id si
 
 if(message.channel.id !== kanalid) return;
 const oyunismi = args[0]
